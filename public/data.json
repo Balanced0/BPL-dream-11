@@ -1,0 +1,52 @@
+[
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 95,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "priceInDollars": 1200000,
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli.jpg"
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 92,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "priceInDollars": 950000,
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Babar_Azam_2018.jpg"
+  },
+  {
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerType": "All-Rounder",
+    "rating": 90,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "priceInDollars": 1100000,
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Ben_Stokes_2019.jpg"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "priceInDollars": 1000000,
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Kane_Williamson_2019.jpg"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All-Rounder",
+    "rating": 93,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "priceInDollars": 850000,
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Shakib_Al_Hasan_2018.jpg"
+  }
+]
