@@ -10,11 +10,11 @@ const Players = ({playersPromise, setCoins, coins}) => {
         <div className="container mx-auto pl-4 pr-4">
             <div className ="flex justify-between items-center">
                 {
-                    selectedType==="Available" ? <h3>Available Players</h3>:<h3>Selected Players</h3>
+                    selectedType==="Available" ? <h3>Available Players</h3>:<h3>Selected Players {selectedPlayers.length}/{data.length}</h3>
                 }
                 <div className="flex">
                     <button onClick={()=>setSelectedType("Available")} className={`btn ${selectedType==="Available" ? "btn-success" : "btn-neutral" }`}>Available</button>
-                    <button onClick={()=>setSelectedType("Selected")} className={`btn ${selectedType==="Selected" ? "btn-success" : "btn-neutral" }`}>Selected</button>
+                    <button onClick={()=>setSelectedType("Selected")} className={`btn ${selectedType==="Selected" ? "btn-success" : "btn-neutral" }`}>Selected{selectedPlayers.length}</button>
                 </div>
             </div>
             {
