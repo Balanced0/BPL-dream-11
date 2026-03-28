@@ -14,11 +14,11 @@ const Players = ({playersPromise, setCoins, coins}) => {
                 }
                 <div className="flex">
                     <button onClick={()=>setSelectedType("Available")} className={`btn ${selectedType==="Available" ? "btn-success" : "btn-neutral" }`}>Available</button>
-                    <button onClick={()=>setSelectedType("Selected")} className={`btn ${selectedType==="Selected" ? "btn-success" : "btn-neutral" }`}>Selected{selectedPlayers.length}</button>
+                    <button onClick={()=>setSelectedType("Selected")} className={`btn ${selectedType==="Selected" ? "btn-success" : "btn-neutral" }`}>Selected ({selectedPlayers.length})</button>
                 </div>
             </div>
             {
-                selectedType==="Available" ? <AvailablePlayers data={data} setCoins={setCoins} coins={coins} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></AvailablePlayers> : <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>
+                selectedType==="Available" ? <AvailablePlayers data={data} setCoins={setCoins} coins={coins} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></AvailablePlayers> : <SelectedPlayers setCoins={setCoins} coins={coins} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>
             }
         </div>
     );
