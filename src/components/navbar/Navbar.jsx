@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({coins}) => {
     return (
         <div className="container mx-auto pl-4 pr-4">
             <div className="navbar bg-base-100">
@@ -23,7 +23,7 @@ const Navbar = () => {
                         <li><a>Item 3</a></li>
                     </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl">BPL Dream 11</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <button classNmae="btn">{coins} coins</button>
                 </div>
             </div>
         </div>
