@@ -41,7 +41,7 @@ const Navbar = ({coins}) => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button classNmae="btn">{coins} coins</button>
+                    <button className="btn">{coins} coins</button>
                 </div>
             </div>
         </div>
